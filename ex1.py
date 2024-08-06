@@ -51,4 +51,10 @@ def lucky_seven():
         print(f'Your money is {money} baht.')
         move_on = input('Continue... (y/n)')
 
+
+def min_max():
+    min = max = 0
+    for x in range(4):
+        num1 = input(f'รับค่า ตัวเลข {x+1}>> ')
+        
 lucky_seven()
