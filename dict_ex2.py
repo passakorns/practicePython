@@ -12,6 +12,7 @@ contries = {
 print(person)
 print(contries)
 
+
 #การเข้าถึงข้อมูลโดยการใช้คีย์
 age = person['age']
 name = person['name']
@@ -34,6 +35,7 @@ print(person)
 #การเพิ่มข้อมูล
 person["email"] = "alice@example.com"
 print("Updated dictionary:", person)
+person['salary'] = 45000
 
 #การลบข้อมูล
 # del person['age']
